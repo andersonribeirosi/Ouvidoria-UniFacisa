@@ -5,7 +5,7 @@ import { MyApp } from './app.component';
 
 //Páginas
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+
 import { Objetivos } from '../pages/objetivos/objetivos';
 import { PublicoAlvo } from '../pages/publicoalvo/publicoalvo';
 import { Contato } from '../pages/contato/contato';
@@ -17,7 +17,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage,
     Objetivos, 
     PublicoAlvo,
     Contato
@@ -30,7 +29,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage, 
     Objetivos,
     PublicoAlvo,
     Contato
